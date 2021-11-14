@@ -78,6 +78,7 @@ header nav ul li a {
 .bio-img {
    width: 100%;
    position: relative;
+   padding-bottom: 100px;
 }
 
 .my-bio h3 {
@@ -87,10 +88,9 @@ header nav ul li a {
 .my-bio h4 {
     font-weight: lighter;
     font-size: 22px;
-    margin-bottom: 15px;
 }
 .my-bio p {
-    font-size: 17px;
+    font-size: 20px;
 
 }
 
@@ -139,10 +139,13 @@ header nav ul li a {
     height: auto;
     max-height: 462.69px;
 }
-
+.project-name{
+    font: 40px;
+}
 .project-info{
     background-color:var(--Title-color) ;
     text-align: center;
+    font-size: 25px;
 }
 
 footer {
