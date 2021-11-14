@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicholas Cummings Portfolio</title>
-    <!--link rel="stylesheet" href="./assets/styles/styles.css">-->
+    <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <!--Header/Nav-->
+<body>
+
   <header>
     <h1>
         <a href="/">
@@ -33,26 +35,29 @@
 <!--my bio start-->
 <section id="my-bio" class="Bio">
     <div class="my-bio">
-        <h2 class ="section-title primary-border">A short biography about me:</h2>
-            <h3> Hello there!</h3>
+        <h2 class="section-title">A short biography about me</h2>
+            <h3 > Hello there!</h3>
             <h4>My name is Nicholas Cummings</h4> 
-            <p> you can call me UncleBikki! I am a budding web developer/Streamer
+            <p> You can call me UncleBikki! I am a budding web developer/Streamer
             looking to make a name for myself.
             </p>
     </div>
-    <div>
-        <img src="/assets/images/WIN_20200129_21_00_53_Pro.jpg" alt="Thats Me!">
-    </div>
+        <img src="./assets/images/WIN_20200129_21_00_53_Pro.jpg" class ="bio-img" alt="Thats Me!">
 </section>
 <!--My Project Section-->
 <section id = "my-projects">
-<div class = "flex-row">
-        <h2 class="section title primary-border">My Current Projects</h2>
-    </div>
-<div class="projects">
+<div class="project-title">
+        <h2 class="section-title">My Current Projects</h2>
+</div>
 <!--first project-->
-    <article class="project-1">
-        <img src="" alt="run buddy landing page">
+<div class="my-projects">
+        <article class="project-1">
+        <p class="proj-img">
+            <a href="https://UncleBikki.github.io/run-buddy/">
+                <img src="./assets/images/Screenshot 2021-11-13 190331.jpg" alt="run buddy landing page">
+            </a>
+        </p>
+       
         <div class="project-info">
             <h3 class= "project-name">Run Buddy!</h3>
             <p>
@@ -62,8 +67,12 @@
     </article>
 <!--first project end-->
 <!--second project-->
-    <article class="project">
-        <img src="" alt="Robot Gladiators">
+    <article class="project-2">
+        <p class="proj-img">
+            <a href=" https://UncleBikki.github.io/robot-gladiators/">
+                <img src="./assets/images/robot gladiators.jpg" alt="Robot Gladiators">
+            </a>
+        </p>
         <div class="project-info">
             <h3 class="project-name">Robot Gladiators!</h3>
             <p>
@@ -72,40 +81,32 @@
         </div>
     </article>
     <!--second project end-->
-    <!--third project-->
-    <article class="project">
-        <img src="" alt="Fan Page">
-        <div class="project-info">
-            <h3 class="project-name">Twenty-One Pilots Fan Page</h3>
-            <p>
-                i created this fanpage as a part of my precourse work and dedicated it to the best band in the world Twenty-one Pilots!
-            </p>
-        </div>
-    </article>
 </div>
 </section>
 <!--contact section-->
 <section id="contact-me" class="contact">
     <div class="flex-row">
-        <h2 class="section-title primary-border">My Contact Info</h2>
+        <h2 class="section-title">My Contact Info</h2>
     </div>
     <div class="contact-info">
         <div>
-            <h3>Socials</h3>
             <p>
-                Want to ask me any questions or just hang out while i stream?
+                Want to ask me any questions or just hang out while I stream?
             </p>
+            <h3>Socials</h3>
             <address>
-                Twitch.tv/UncleBikki <br/>
-                E: <a href="unclebikki@gmail.com">unclebikki@gmail.com</a>
+                Twitch: <a href="https://www.Twitch.tv/UncleBikki">Twitch.tv/Unclebikki</a> <br/>
+                Email: <a href="unclebikki@gmail.com">unclebikki@gmail.com</a>
             </address>
 
         </div>
     </div>
 </section>
+</div>
+
  <!--footer-->
  <footer>
      <h2>An UncleBikki Creation</h2>
-     
  </footer>
+</body>
 </html>
